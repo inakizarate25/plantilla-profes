@@ -5,7 +5,7 @@ import img2 from '../../assets/pexels-li-sun-2294403.jpg'
 
 const BlogsCont = () => {
   return (
-    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4 mt-11 border-t-2 border-orange-600'>
+    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4 mt-11 border-t-2 border-orange-600' id='blogs'>
       <h2 className='text-3xl font-bold'>BLOGS</h2>
 
      <div className='flex flex-wrap w-full justify-around '>

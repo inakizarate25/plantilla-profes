@@ -6,7 +6,8 @@ import ProfesCont from "./components/profes/ProfesCont"
 import Nosotros from "./components/nosotros/Nosotros"
 import FaqCont from "./components/faq/FaqCont"
 import Header from "./components/header/Header"
-
+import Contacto from "./components/contacto/Contacto"
+import Footer from "./components/footer/Footer"
 function App() {
  
   return (
@@ -18,6 +19,8 @@ function App() {
       <ProfesCont/>
       <Nosotros/>
       <FaqCont/>
+      <Contacto/>
+      <Footer/>
       <Top/>
     </main>
   )

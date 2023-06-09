@@ -6,7 +6,7 @@ import img4 from '../../assets/pexels-binyamin-mellish-116077.jpg'
 
 const PlanesSec = () => {
   return (
-    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4'>
+    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4' id="planes">
         <h2 className='text-3xl font-bold'>PLANES DE ASESORAMIENTO PERSONALIZADO</h2>
         <div className="flex flex-wrap gap-4 w-full items-start justify-around">
         <Planes 
