@@ -11,7 +11,7 @@ import Footer from "./components/footer/Footer"
 function App() {
  
   return (
-    <main className="h-auto w-full bg-neutral-900 flex flex-col gap-3">
+    <main className="h-auto w-full bg-neutral-900 flex flex-col items-center gap-3">
       <Header />
       <Home />
       <PlanesSec/>

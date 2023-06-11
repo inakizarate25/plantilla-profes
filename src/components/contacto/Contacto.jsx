@@ -6,7 +6,7 @@ const Contacto = () => {
     <section className="h-auto w-full  flex flex-col items-center justify-center gap-5 border-t-2 border-orange-600 py-5 my-10">
         <h4 className="text-gray-100 text-3xl font-bold">CONTACTO</h4>
 
-        <form className="flex flex-col gap-5 w-full px-6 items-center justify-center">
+        <form className="flex flex-col gap-5 w-full px-6 items-center justify-center max-w-screen-md">
             <div className="flex flex-col gap-1 items-start justify-center w-full">
                 <label htmlFor="name" className="text-xl text-gray-100 font-medium">Nombre</label>
                 <input type="text" name="name" id="name" className="w-full px-2 bg-neutral-800 h-12 rounded-md text-gray-100 font-medium text-lg"/>
