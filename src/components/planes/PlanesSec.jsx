@@ -9,7 +9,7 @@ const PlanesSec = () => {
     <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4' id="planes">
         <h2 className='text-3xl font-bold'>PLANES DE ASESORAMIENTO PERSONALIZADO</h2>
         <div className="flex flex-wrap gap-4 w-full items-start justify-around">
-        <Planes 
+        <Planes
         img={img1}
         titulo={'Plan de entrenamiento 1'}
         descripcion={<ul className="flex flex-col items-start justify-center text-xl text-neutral-500">

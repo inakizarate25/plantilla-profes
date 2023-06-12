@@ -30,7 +30,7 @@ const FaqCont = () => {
 
 
   return (
-    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4 border-t-2 border-orange-600 my-10 max-w-screen-md md:items-center' id="preguntas">
+    <section className='h-auto w-full flex flex-col items-start px-3 text-gray-50 py-5 gap-4 border-t-2 border-orange-600 my-10 max-w-screen-md md:items-center animate-fade-left animate-once animate-ease-in-out' id="preguntas">
         <h2 className='text-3xl font-bold'>PREGUNTAS FRECUENTES</h2>
 
         {
