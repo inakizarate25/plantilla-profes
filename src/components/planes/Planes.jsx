@@ -7,7 +7,7 @@ const Planes = ({img, titulo, descripcion, precio}) => {
       <img src={img} alt="training" className='w-full h-auto  rounded-lg'/>
       <div className='flex justify-center items-center'>{descripcion}</div>
       <p className='text-2xl font-semibold '>{precio}</p>
-      <button className='px-4 py-3 text-2xl font-semibold bg-orange-600 rounded-lg hover:scale-90 transition-all'>Adquirir</button>
+      <button className='px-4 py-3 text-2xl font-semibold bg-cyan-900 rounded-lg hover:scale-90 transition-all'>Adquirir</button>
     </article>
   )
 }
