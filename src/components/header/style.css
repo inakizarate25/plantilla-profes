@@ -11,10 +11,10 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: #18191d;
+	background-color: transparent;
 	color: var(--textColor);
 	z-index: 1000;
-	width: 100%;
+	width: 99%;
 
 }
 
@@ -22,8 +22,6 @@ nav a {
 	margin: 0 1rem;
 	color: var(--textColor);
 	text-decoration: none;
-	font-size: 1.2rem;
-	
 }
 
 nav a:hover {
