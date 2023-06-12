@@ -1,8 +1,9 @@
 import React from 'react'
+import 'animate.css';
 
 const Home = () => {
   return (
-    <section className="h-auto w-full flex flex-col items-start px-5 text-gray-50 py-10 my-10 gap-4 md:h-[60vh] md:justify-center md:items-center   max-w-4xl" id='inicio'>
+    <section className="h-auto w-full flex flex-col items-start px-5 text-gray-50 py-10 my-10 gap-4 md:h-[60vh] md:justify-center md:items-center   max-w-4xl animate__animated animate__slideInLeft" id='inicio'>
         <div className='bg-neutral-700 w-auto h-auto rounded-3xl py-2 px-3'><span className='bg-orange-500 px-2  py-1 rounded-xl font-semibold'>15% OFF</span> El plan mas eficiente para tu meta</div>
         <h1 className='text-7xl font-semibold'>Personal Training</h1>
         <p className='py-5 text-xl text-neutral-300 font-medium md:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
