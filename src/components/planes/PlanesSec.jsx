@@ -1,8 +1,8 @@
 import Planes from "./Planes"
-import img1 from '../../assets/pexels-anush-gorak-1229356.jpg'
-import img2 from '../../assets/pexels-bruno-bueno-2204196.jpg'
-import img3 from '../../assets/pexels-pixabay-414029.jpg'
-import img4 from '../../assets/pexels-binyamin-mellish-116077.jpg'
+import img1 from '../../assets/244742754_381907060312919_3385626588482423734_n.jpg'
+import img2 from '../../assets/272745321_983809498887073_1972967795930371697_n.webp'
+import img3 from '../../assets/298870478_474745141327484_7423272441161220890_n.jpg'
+
 
 const PlanesSec = () => {
   return (
@@ -36,18 +36,6 @@ const PlanesSec = () => {
         <Planes 
         img={img3}
         titulo={'Plan de entrenamiento 3'}
-        descripcion={<ul className="flex flex-col items-start justify-center text-xl text-neutral-500">
-            <li>- rutina</li>
-            <li>- asesoramiento</li>
-            <li>- 3 dias</li>
-            <li>- nutricion</li>
-            <li>- antropometria</li>
-        </ul>}
-        precio={'$100'}
-        />
-        <Planes 
-        img={img4}
-        titulo={'Plan de entrenamiento 4'}
         descripcion={<ul className="flex flex-col items-start justify-center text-xl text-neutral-500">
             <li>- rutina</li>
             <li>- asesoramiento</li>

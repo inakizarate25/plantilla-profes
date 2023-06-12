@@ -1,7 +1,7 @@
 import React from 'react'
 import Blogs from './Blogs'
-import img1 from '../../assets/pexels-victor-freitas-949129.jpg'
-import img2 from '../../assets/pexels-li-sun-2294403.jpg'
+import img1 from '../../assets/339651049_3127806977511669_8739975468647276905_n.jpg'
+import img2 from '../../assets/284481852_1033988250564905_3343393448094223184_n.jpg'
 
 const BlogsCont = () => {
   return (

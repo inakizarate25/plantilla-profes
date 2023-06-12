@@ -11,10 +11,14 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: transparent;
+	background-color:#18191d;
 	color: var(--textColor);
 	z-index: 1000;
 	width: 99%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin-bottom: 30px;
 
 }
 
