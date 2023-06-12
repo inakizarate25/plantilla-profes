@@ -12,7 +12,7 @@ const Videos = () => {
      
      </div>
 
-     <a href="https://www.youtube.com/@anzzo._/featured" className="px-3 py-2 bg-orange-600 text-white font-semibold rounded-md hover:scale-95 animate-fade-left animate-once animate-ease-in-out">Ir a YouTube</a>
+     <a href="https://www.youtube.com/@anzzo._/featured" className="px-3 py-2 bg-cyan-900 text-white font-semibold rounded-md hover:scale-95 animate-fade-left animate-once animate-ease-in-out self-center">Ir a YouTube</a>
 
     </section>
   )

@@ -37,7 +37,7 @@ const FaqCont = () => {
             acordionData.map((acc, index) => {
                return(
                 <div className="accordion w-full" onClick={() => handleActive(index)} key={index}>
-                    <div className="accordionHeading flex bg-cyan-900 w-full px-5 rounded-md gap-4 items-center py-2">
+                    <div className="accordionHeading flex bg-cyan-900 w-full px-5 rounded-md gap-4 items-center py-2 cursor-pointer">
                         <span className="text-2xl font-semibold" style={{
                             transform: accActive === index ? 'rotate(45deg)' : 'rotate(0deg)'
                         }}>
@@ -48,7 +48,7 @@ const FaqCont = () => {
                     </div>
                     {
                         accActive === index ? <div className="accordionContent transition-all">
-                            <p className="text-md font-medium px-3">{acc.acordionContent}</p>
+                            <p className="text-md font-medium px-3 transition-all">{acc.acordionContent}</p>
                         </div>
                         : null
                     }
