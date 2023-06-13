@@ -10,6 +10,7 @@ import Contacto from "../components/contacto/Contacto"
 import Footer from "../components/footer/Footer"
 import Ropa from "../components/ropa/Ropa"
 
+
 const Principal = () => {
   return (
    <>
@@ -19,6 +20,7 @@ const Principal = () => {
       <Nosotros/>
       <ProfesCont/>
       <Videos/>
+
       <Ropa/>
       <FaqCont/>
       <Contacto/>

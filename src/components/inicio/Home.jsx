@@ -8,7 +8,7 @@ const Home = () => {
         <p className='py-5 text-xl text-neutral-300 font-medium md:text-center animate-fade-left animate-once animate-ease-in-out'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div className='flex justify-center items-center w-full gap-6 animate-fade-right animate-once animate-ease-in-out'>
             <a href="#planes" className='px-5 py-4 bg-cyan-900 rounded-lg font-bold text-2xl hover:scale-90 transition-all'>Comenzar</a>
-            <a href="#testimonios" className='px-5 py-4 bg-neutral-700 rounded-lg font-bold text-2xl hover:scale-90 transition-all'>Testimonios</a>
+            <a href="#contacto" className='px-5 py-4 bg-neutral-700 rounded-lg font-bold text-2xl hover:scale-90 transition-all'>Contacto</a>
         </div>
     </section>
   )
