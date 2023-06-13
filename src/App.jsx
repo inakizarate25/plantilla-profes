@@ -1,31 +1,22 @@
-import Home from "./components/inicio/Home"
-import PlanesSec from "./components/planes/PlanesSec"
-import BlogsCont from "./components/blogs/BlogsCont"
-import Top from "./components/Top/Top"
-import ProfesCont from "./components/profes/ProfesCont"
-import Nosotros from "./components/nosotros/Nosotros"
-import FaqCont from "./components/faq/FaqCont"
-import Header from "./components/header/Header"
-import Videos from "./components/videos/VideosCont"
-import Contacto from "./components/contacto/Contacto"
-import Footer from "./components/footer/Footer"
-import Ropa from "./components/ropa/Ropa"
+import Principal from "./pags/Principal"
+import Header from './components/header/Header'
+import Blog1 from "./pags/Blog1"
+import Blog2 from "./pags/Blog2"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
  
   return (
     <main className="h-auto w-full bg-neutral-900 flex flex-col items-center gap-3">
-      <Header />
-      <Home />
-      <PlanesSec/>
-      <BlogsCont/>
-      <Nosotros/>
-      <ProfesCont/>
-      <Videos/>
-      <Ropa/>
-      <FaqCont/>
-      <Contacto/>
-      <Footer/>
-      <Top/>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Principal />} />
+          <Route path="*" element={<h2>ERROR 404</h2>} />
+          <Route path="/blog1" element={<Blog1 />} />
+          <Route path="/blog2" element={<Blog2 />} />
+        </Routes>
+      
+      </BrowserRouter>
     </main>
   )
 }

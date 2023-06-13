@@ -13,12 +13,14 @@ const BlogsCont = () => {
       img={img1}
       titulo='Powerlifting'
       descripcion={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate nostrum atque libero doloremque sed laudantium recusandae, nobis, suscipit ad sapiente quos ipsum harum ullam aliquam quod autem? Expedita, inventore.'}
+      link='/blog1'
       />
 
 <Blogs
       img={img2}
       titulo='Polimetria'
       descripcion={'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate nostrum atque libero doloremque sed laudantium recusandae, nobis, suscipit ad sapiente quos ipsum harum ullam aliquam quod autem? Expedita, inventore.'}
+      link='/blog2'
       />
      </div>
 
