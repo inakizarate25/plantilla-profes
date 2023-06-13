@@ -3,7 +3,7 @@ import phone from '../../assets/phone-alt.svg'
 import map from '../../assets/map-marker.svg'
 const Contacto = () => {
   return (
-    <section className="h-auto w-full  flex flex-col items-center justify-center gap-5 border-t-2 border-cyan-900 py-5 my-10 animate-fade-right animate-once animate-ease-in-out">
+    <section className="h-auto w-full  flex flex-col items-center justify-center gap-5 border-t-2 border-cyan-900 py-5 my-10 animate-fade-right animate-once animate-ease-in-out" id='contacto'>
         <h4 className="text-gray-100 text-3xl font-bold">CONTACTO</h4>
 
         <form className="flex flex-col gap-5 w-full px-6 items-center justify-center max-w-screen-md">
